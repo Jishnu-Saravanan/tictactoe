@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/220d50c31a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="taskbar">
+      <div class="home">
+        <a href="../xogame/index.html">
+          <i class="fa-solid fa-house"></i>
+        </a>
+      </div>
+      <h2>TIC TAC TOE</h2>
+    </div>
+    <div class="game">
+      <div class="board">
+        <div id="0" onclick="place(this.id)" class="tile tile1"></div>
+        <div id="1" onclick="place(this.id)" class="tile tile2"></div>
+        <div id="2" onclick="place(this.id)" class="tile tile3"></div>
+        <div id="3" onclick="place(this.id)" class="tile tile4"></div>
+        <div id="4" onclick="place(this.id)" class="tile tile5"></div>
+        <div id="5" onclick="place(this.id)" class="tile tile6"></div>
+        <div id="6" onclick="place(this.id)" class="tile tile7"></div>
+        <div id="7" onclick="place(this.id)" class="tile tile8"></div>
+        <div id="8" onclick="place(this.id)" class="tile tile9"></div>
+      </div>
+    </div>
+    <div class="score">
+      <p1 id="turn">X's Turn</p1>
+      <input onclick="play()" id="play" type="button" value="PLAY AGAIN" />
+    </div>
+  </body>
+</html>
