@@ -146,7 +146,7 @@ function place(clicked_id){
    
 }
 function play(){
-    location.href='../xogame/index.html';
+    location.href='https://jishnu-saravanan.github.io/tictactoe/';
     
     
 }
